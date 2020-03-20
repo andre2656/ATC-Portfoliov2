@@ -49,6 +49,15 @@ class NavBar extends Component {
   Home = () =>{
     this.props.history.push("/");
   }
+  Bio = () =>{
+    window.location.pathname = '/bio'
+  }
+  MyWork = () => {
+    window.location.pathname = '/myWork'
+  }
+  Contact = () => {
+    window.location.pathname = '/contact'
+  }
 
   forgotPassword = () => {
     this.setState({ showPassword: true });
@@ -78,43 +87,23 @@ class NavBar extends Component {
               <div className="col-md-2" style={{marginLeft: 30}} onClick={this.Home}><img id='navLogo'src="images/ATCLogo.jpg" alt='shop' /></div>
 
               <div className="col-md-1" id='widget'>
-                  <div class="btn-group">
-                    <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><p className="navTabsTop">Home</p></button>
-                   <div class="dropdown-menu" id='dropMenu'>
-                      <div class="dropdown-item" id='dropItem' onClick={this.Sales}>Scroll</div>
-                       <div class="dropdown-divider" id='dropDivider'></div>
-                    <div class="dropdown-item" id='dropItem' onClick={this.SalesPage}>View More</div>
-                    </div>
-                  </div>
-              </div>
-              <div className="col-md-1" id='widget'>
                 <div class="btn-group">
-                  <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">My Work</p></button>
-                 <div class="dropdown-menu" id='dropMenu'>
-                    <div class="dropdown-item" id='dropItem' onClick={this.Production}>Scroll</div>
-                     <div class="dropdown-divider" id='dropDivider'></div>
-                    <div class="dropdown-item" id='dropItem' onClick={this.ProductionPage}>View More</div>
-                  </div>
+                  <button type="button" class="navButton" ><p className="navTabsTop">Home</p></button>
                 </div>
               </div>
               <div className="col-md-1" id='widget'>
                 <div class="btn-group">
-                  <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Bio</p></button>
-                 <div class="dropdown-menu" id='dropMenu'>
-                    <div class="dropdown-item" id='dropItem' onClick={this.Design}>Scroll</div>
-                     <div class="dropdown-divider" id='dropDivider'></div>
-                    <div class="dropdown-item" id='dropItem' onClick={this.DesignPage}>View More</div>
-                  </div>
+                  <button type="button" class="navButton" onClick={this.MyWork} ><p className="navTabsTop">My Work</p></button>
                 </div>
               </div>
               <div className="col-md-1" id='widget'>
                 <div class="btn-group">
-                  <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Contact</p></button>
-                 <div class="dropdown-menu" id='dropMenu'>
-                    <div class="dropdown-item" id='dropItem' onClick={this.MarketingPR}>Scroll</div>
-                     <div class="dropdown-divider" id='dropDivider'></div>
-                    <div class="dropdown-item" id='dropItem' onClick={this.MarketingPRPage}>View More</div>
-                  </div>
+                  <button type="button" class="navButton" onClick={this.Bio} ><p className="navTabsTop">Bio</p></button>
+                </div>
+              </div>
+              <div className="col-md-1" id='widget'>
+                <div class="btn-group">
+                  <button type="button" class="navButton" onClick={this.Contact} ><p className="navTabsTop">Contact</p></button>
                 </div>
               </div>
               <div className="col-md-1.5"><input type="email" className=" login-input" id="login-email" placeholder="Username" name="username" onChange={this.inputChanged} /></div>

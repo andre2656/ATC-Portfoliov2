@@ -6,6 +6,7 @@ import SignUp from './components/SignUp/SignUp';
 import StyleApp from './components/StyleApp/StyleApp';
 import loginController from "./controllers/LoginController";
 import Contact from './components/Contact/Contact'
+import Bio from './components/Bio/Bio'
 // import Styles from './components/StyleApp/StyleRecognition/StyleRecognition'
 
 
@@ -39,6 +40,7 @@ class App extends Component {
           <Route exact path="/" component={Index} />
           <Route exact path="/sign-up" component={SignUp} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path= '/bio' component={Bio} />
           {/* <Route exact path="/payment" component={Payment} /> */}
           {/* <Route exact path="/settings" component={SettingsForm} /> */}
           <Route exact path="/app" component={StyleApp} />
