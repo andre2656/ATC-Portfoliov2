@@ -1,0 +1,169 @@
+.login-input {
+    /* margin-right: 5px;
+    width: 180px; */
+ }
+.navButton{
+    background-color: #0a0a0a;
+    padding-top: 15px;
+    border: none;
+    max-height: 50px;
+    outline: none;
+}
+#navLogo{
+    height: 50px;
+    width: 80px;
+}
+#widgetLogo{
+    height: 50px;
+    width: 50px;
+}
+.navTabs{
+    color: white;
+    text-align: center;
+}
+.navTabsTop{
+    color: white;
+    text-align: center;
+}
+#navRow{
+    background-color: #0a0a0a;
+    height: 50px;
+    position: absolute;
+     top: 0px;
+     right: 0px;
+     left: 0px;
+}
+#dropDownButton{
+    color: white
+}
+
+#widgetRow{
+    background-color: #1d1d1f;
+    height: 50px;
+    position: absolute;
+     top: 50px;
+     right: 0px;
+     left: 0px;
+}
+#widget{
+    margin-right: 3%;
+}
+
+#login-email{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-right: 10px;
+    padding-top: 10px;
+    margin-left: 75px;
+}
+#login-password{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-right: -5px;
+     padding-top: 10px;
+}
+#dropMenu{
+    background-color: black;
+    color: white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    min-width: 100px;
+    max-width: 100%;
+}
+#dropItem:hover{
+    background-color: black;
+    opacity: .5;
+    color: white;
+}
+#dropItem{
+     width: 60%;
+     font-size: 15px;
+     height: 20px;
+}
+#dropDivider{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#dropGroup{
+    
+}
+#btn-id{
+    background-color: transparent;
+     height: 40px !important;
+    width: 40px !important;
+    border: none;   
+}
+#btn-forgotPass{
+    background-color: transparent;
+    color: #0071e3;
+    font-size: 18px;
+    border: none;   
+}
+#signInBtn{
+    height: 30px;
+    width: 30px;
+}
+@media(max-width:1200px){
+.login-input {
+    width: 120px;
+    height: 30px;
+
+}
+#btn-id{
+    height: 30px;
+    width: 75px;
+}
+}
+.login-input {
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+
+}
+#btn-id{
+    height: 30px;
+    width: 75px;
+     margin-top: 10px;
+}
+
+@media(max-width:992px){
+    #sign-up-form {
+        /* margin-left: 0%; */
+    }
+}
+
+@media(max-width:768px){
+    #sign-up-form {
+        /* margin-left: 40%; */
+    }
+}
+
+@media(max-width:700px){
+    #sign-up-form {
+        /* margin-left: 40%; */
+    }
+
+    .login-input {
+        /* width: 140px; */
+    }
+}
+
+@media(max-width:600px){
+    #sign-up-form {
+        /* margin-left: 30%; */
+    }
+
+    .login-input {
+        /* width: 120px; */
+    }
+}
+
+@media(max-width:450px){
+    #sign-up-form {
+        /* margin-left: 10%; */
+    }
+}

@@ -1,0 +1,15 @@
+body {
+  margin-top: 30px;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left; 
+}
+
+h1, h2, button {
+ font-family: 'Source Sans Pro', sans-serif;
+ outline: none !important;
+}
+input:focus{
+  outline: #0071e3 2px solid!important;
+}
+

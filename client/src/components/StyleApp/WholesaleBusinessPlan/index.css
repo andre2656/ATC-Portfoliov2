@@ -1,0 +1,71 @@
+#WholesaleIndex{
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+#WholesaleLeft {
+    height: 600px;
+    background-color: black;
+    width: 100%;
+     margin-top: 50px;
+    margin-left: 0px;
+}
+
+#WholesaleLeftImg {
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 25px
+}
+
+#WholesaleRight {
+    height: 600px;
+    background-color: #f1f1f1;
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 0px
+
+}
+#WholesaleRightImg {
+    width: 500px;
+    max-width: 500px;
+    height: auto;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-right: 25px
+}
+#WholesaleFlux{
+    height: 600px;
+    background-color: white;
+    width: 100%;
+    margin-top: 50px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#WholesaleLeftOverflow {
+     height: 600px;
+    background-color: #f1f1f1;
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 0px;
+    
+}
+#WholesaleLeftGray {
+    height: 600px;
+    background-color: #f1f1f1;
+    width: 100%;
+     margin-top: 50px;
+    margin-left: 0px;
+}
+#WholesaleRightBlack{
+     height: 600px;
+    background-color: #000;
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 0px
+}
