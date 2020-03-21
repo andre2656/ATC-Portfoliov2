@@ -71,10 +71,10 @@ class Footer extends Component {
                     </div> */}
                     <div className="col-md-1" style={{ minWidth: 140, maxHeight: 120 }} >
                         <p style={{ color: 'white', fontSize: 16, paddingTop: 5 }}>
-                            <a href='/sign-up#/SignUp' className='footerLink' >Sales</a><br />
-                            <a href='#' className='footerLink' >Production</a><br />
-                            <a href='#' className='footerLink' >Design</a><br />
-                            <a href='#' className='footerLink' >Marketing & PR</a>
+                            <a href='#' className='footerLink' >Home</a><br />
+                            <a href='#' className='footerLink' >My Work</a><br />
+                            <a href='#' className='footerLink' >Bio</a><br />
+                            <a href='#' className='footerLink' >Contact</a>
                         </p>
                     </div>
                     <div className="col-md-1" >
