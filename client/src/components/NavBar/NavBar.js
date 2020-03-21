@@ -25,27 +25,7 @@ class NavBar extends Component {
       }
     });
   }
-  Sales = () =>{
-    window.scrollTo(0,1650)
-  }
-  Production= () => {
-    window.scrollTo(0, 2150)
-  }
-  MarketingPR = () => {
-    window.scrollTo(0, 1020)
-  }
-  Design = () => {
-    window.scrollTo(0, 2150)
-  }
-  TradeShow = () => {
-    window.scrollTo(0, 2700)
-  }
-  PopUp = () => {
-    window.scrollTo(0, 2700)
-  }
-  ShippingLogistics = () => {
-    window.scrollTo(0, 3400)
-  }
+
   Home = () =>{
     this.props.history.push("/");
   }
