@@ -61,14 +61,14 @@ class Footer extends Component {
                             <a href='#' className='footerLink' >Brand Policy</a><br />
                         </p>
                     </div>
-                    <div className="col-md-1" style={{ maxWidth: 120, maxHeight: 120 }} >
+                    {/* <div className="col-md-1" style={{ maxWidth: 120, maxHeight: 120 }} >
                         <p style={{ color: 'white', fontSize: 16, paddingTop: 5, maxHeight: 120, overflow: 'hidden' }}>
                             <a className='footerLink' href='https://goo.gl/maps/WpgBrZrXP4kefCYk7' target='blank' >Location</a><br />
                             44 Cipresso <br />
                             Irvine, CA <br />
                             92603-0105
                     </p>
-                    </div>
+                    </div> */}
                     <div className="col-md-1" style={{ minWidth: 140, maxHeight: 120 }} >
                         <p style={{ color: 'white', fontSize: 16, paddingTop: 5 }}>
                             <a href='/sign-up#/SignUp' className='footerLink' >Sales</a><br />
