@@ -77,13 +77,13 @@ class Footer extends Component {
                             <a href='#' className='footerLink' >Contact</a>
                         </p>
                     </div>
-                    <div className="col-md-1" >
+                    {/* <div className="col-md-1" >
                         <p style={{ color: 'white', fontSize: 16, paddingTop: 5, minWidth: 150, maxHeight: 120 }}>
                             <a href='#' className='footerLink' >Trade Show</a><br />
                             <a href='#' className='footerLink' >Pop Up Shop</a><br />
                             <a href='#' className='footerLink' >Shipping & Logistics</a><br />
                         </p>
-                    </div>
+                    </div> */}
                 
                     <div className="col-md-4" style={{ marginTop: 60, position: 'absolute', right: 0 }}>
                         <input type="email" className=" login-input" id="login-email" placeholder="Username" name="username" onChange={this.inputChanged} />
