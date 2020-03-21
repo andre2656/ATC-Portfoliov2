@@ -46,13 +46,13 @@ class Footer extends Component {
             <div className="container" style={{ display: 'block', backgroundColor: '#000', }}>
                 <div className="row" style={{ backgroundColor: '#000', position: 'absolute', right: 0, left: 0, bottom: 0, height: 120, top: 950, }}>
                  
-                    <div className="col-md-1" style={{ maxWidth: 100, marginLeft: 50, maxHeight: 120 }} >
+                    {/* <div className="col-md-1" style={{ maxWidth: 100, marginLeft: 50, maxHeight: 120 }} >
                         <p style={{ color: 'white', fontSize: 16, paddingTop: 5 }}>
                             <a href='#' className='footerLink' >About</a><br />
                             <a href='/contact' className='footerLink' >Contact</a><br />
                             <a href='/sign-up' className='footerLink' >Sign Up</a><br />
                         </p>
-                    </div>
+                    </div> */}
                     <div className="col-md-1" style={{ minWidth: 150 }} >
                         <p style={{ color: 'white', fontSize: 16, paddingTop: 5, minWidth: 150, maxHeight: 120 }}>
                             <a href='#' className='footerLink' >Privacy Policy</a><br />
