@@ -15,7 +15,6 @@ class Bio extends React.Component {
                                     No task is too big for me to handle, yet I take pride in the small tasks.
                                 I am here to not only succeed but to learn along the way. <br /><br />
 
-                                    My main sport is football, nonetheless I am a fan of most.
                                     Sports and coding alike, the pair include problem solving at a rapid pace, team work, and dedication.
                                     One mistake and it could ruin a play such as one bug can break the code.
                                     Sports and coding are often related to a game of chess; all of the small moves add up to either make or break the bigger moves.
