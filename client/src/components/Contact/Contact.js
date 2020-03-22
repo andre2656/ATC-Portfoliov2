@@ -96,18 +96,18 @@ class Contact extends React.Component {
                 </div>
                 <div className='row' id="pagetitleContact">
                     <div className='col-md-1'></div>
-                    <h3 id='pageTitleContact' className='col-md-2'><strong>TC Agency</strong></h3><br/><br/>
+                    <h3 id='pageTitleContact' className='col-md-2'><strong>Sites By Dre</strong></h3><br/><br/>
                     <div className='col-md-5'></div>
                 </div>
                 <div className='row' id='CK_Contact'>
                     <div className='col-md-1'></div>
                     <div className='col-md-5'>
-                        <h5 id='contactContact'>Contact- Terrence Campbell</h5><br />
+                        <h5 id='contactContact'>Contact- Andre Campbell</h5><br />
                         <h6 id='licensesContact'><strong>Address:</strong> <a href='https://goo.gl/maps/WpgBrZrXP4kefCYk7' target='_blank'> 44 Cipresso 
                             Irvine, CA 
                             92603-0105</a></h6><br/>
                         <h6 id='licensesContact'><strong>Email:</strong> <a href='mailto:tcamp0171@gmail.com'>tcamp0171@gmail.com</a></h6><br />
-                        <h6 id='licensesContact'><strong>Phone:</strong> (949) 345-9836</h6><br />
+                        <h6 id='licensesContact'><strong>Phone:</strong> (714) 803-2687</h6><br />
                     </div>
                     <div className='col-md-1'></div>
                     <div className='col-md-5'>
