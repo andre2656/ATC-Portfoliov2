@@ -18,6 +18,7 @@
   border-radius: 5px;
   margin-top: 50%;
   margin-left: 50px;
+  transform: rotate(90deg);
 }
 #sideImg1{
   width: auto;
@@ -27,7 +28,7 @@
   padding: 5px;
   background-color: #ef4123;
    border-radius: 5px;
-  margin-top: 10px
+  margin-top: 50px
 }
 #sideImg2{
   width: auto;
@@ -37,7 +38,7 @@
   padding: 5px;
   background-color: #00addc;
    border-radius: 5px;
-  margin-top: 10px
+  margin-top: 50px
 }
 #sideImg3{
   width: auto;
@@ -47,5 +48,14 @@
   padding: 5px;
   background-color: #fff200;
   border-radius: 5px;
-  margin-top: 10px
+  margin-top: 50px
+}
+.Bio-page{
+    /* background-image: url('./images/bioImage.jpg'); */
+    width: 1000;
+    height: 850px;
+    background-size: fill;
+    background-repeat: no-repeat;
+    margin-top: -62px;
+     background-color: black;
 }
