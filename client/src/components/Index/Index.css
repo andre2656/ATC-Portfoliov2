@@ -26,7 +26,7 @@
     border-top: solid 4px ;
     border-radius: 5px;
     text-align: left;
-    background-color: white;
+    background-color: #333333;
     height: 150px;
     padding: 6px;
     outline: none;
@@ -40,6 +40,7 @@
     border-radius: 8px;
     margin-top: 12%;
     margin-right: 20%;
+    background-color: #333333;
 }
 #submitContact:hover{
     color: white;
@@ -52,7 +53,7 @@
     padding: 0px
 }
 #formContact{
-    background-color: white;
+    background-color: #333333;
     padding-top: 25px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -93,7 +94,7 @@
     border-right: 5px solid black;
 }
 #CK_Contact{
-    background-color: white;
+    background-color: #333333;
     border-top: solid 2px black ;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -132,7 +133,7 @@
     border: none;
     border-bottom:2px solid black;
     text-align: left;
-    background-color:  white;
+    background-color:  #333333;
     font-size: 16px;
     padding-bottom: 0px;
     outline: none;
