@@ -1,9 +1,11 @@
 import React from "react";
 import './Bio.css'
+import Navbar from '../NavBar/NavBar'
 class Bio extends React.Component {
     render(){
         return (
             <div>
+                <Navbar/>
                 <div className='Bio-page'>
                     <div className='container'>
                         <div className='row'>
@@ -38,10 +40,15 @@ class Bio extends React.Component {
                             </p>
                             </section>
                             <div id="bioImage" className='col-md-5'>
-                                <img className='col-md-9' id='profileImg' src="../images/MainPic.jpg" alt="A.C." />
-                                <img className='col-md-3' id='sideImg1' src="../images/sidePic1.jpg" alt="A.C." />
-                                <img className='col-md-3' id='sideImg2' src="../images/sidePic2.jpg" alt="A.C." />
-                                <img className='col-md-3' id='sideImg3' src="../images/sidePic3.jpg" alt="A.C." />
+                                <div className='row ' >
+                                    <img className='col-md-8' id='profileImg' src="../images/MainPic.jpg" alt="A.C." />
+                                </div>
+                               <div className='row'>
+                                    <img className='col-md-3' id='sideImg1' src="../images/sidePic1.jpg" alt="A.C." />
+                                    <img className='col-md-3' id='sideImg2' src="../images/sidePic2.jpg" alt="A.C." />
+                                    <img className='col-md-3' id='sideImg3' src="../images/sidePic3.jpg" alt="A.C." />
+                               </div>
+                                
                             </div>
                         </div>
                     </div>
