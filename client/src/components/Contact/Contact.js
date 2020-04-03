@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import validator from 'validator';
-import NavBar from '../Navs/NavBar'
+import NavBar from '../NavBar/NavBar'
 import Footer from '../Navs/Footer'
 class Contact extends React.Component {
     state = {
@@ -106,7 +106,7 @@ class Contact extends React.Component {
                         <h6 id='licensesContact'><strong>Address:</strong> <a href='https://goo.gl/maps/WpgBrZrXP4kefCYk7' target='_blank'> 44 Cipresso 
                             Irvine, CA 
                             92603-0105</a></h6><br/>
-                        <h6 id='licensesContact'><strong>Email:</strong> <a href='mailto:tcamp0171@gmail.com'>tcamp0171@gmail.com</a></h6><br />
+                        <h6 id='licensesContact'><strong>Email:</strong> <a href='mailto:andre2656@gmail.com'>andre2656@gmail.com</a></h6><br />
                         <h6 id='licensesContact'><strong>Phone:</strong> (714) 803-2687</h6><br />
                     </div>
                     <div className='col-md-1'></div>
