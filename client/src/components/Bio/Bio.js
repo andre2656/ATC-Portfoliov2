@@ -1,5 +1,5 @@
 import React from "react";
-import './Bio'
+import './Bio.css'
 class Bio extends React.Component {
     render(){
         return (
