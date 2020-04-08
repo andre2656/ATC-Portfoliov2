@@ -57,68 +57,70 @@ class Contact extends React.Component {
 
     render() {
         return (
-            <div className='container'>
-                <NavBar/>
-                <br />
-                <br />
-                <div className='row' id='formContact'>
-                    <div className='col-md-12'>
-                        <form id='form'>
-                            <h3 id='formHeadingContact'>Quick Contact</h3>
-                            <br />
-                            <div className='row'>
-                                <div className='col-md-1'></div>
-                                <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Name' onChange={this.nameOnChange} />
-                                <div className='col-md-2'></div>
-                                <input className='col-md-4' id='inputContact' name='Email' type='email' placeholder='Email' onChange={this.emailOnChange} />
-                                <div className='col-md-1'></div>
-                            </div>
-                            <br /><br />
-                            <div className='row'>
-                                <div className='col-md-1'></div>
-                                <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Company Name' onChange={this.nameOnChange} />
-                                <div className='col-md-2'></div>
-                                <input className='col-md-4' id='inputContact' name='Phone' type='phone' placeholder='Phone (optional)' onChange={this.phoneOnChange} />
-                                <div className='col-md-1'></div>
-                            </div>
-                            <br /><br /><br />
-                            <div className='row'>
-                                <div className='col-md-1'/>
-                                <textarea id='textareaContact' className='col-md-6' name='Message' type='text' placeholder='Message' onChange={this.messageOnChange} />
-                                <div className='col-md-1' />
-                                <div className='col-md-4'><button type='submit' id="submitContact" onClick={this.handleSubmit}><h4 id='contactSubmit'>Submit</h4></button></div>
-                            </div>
-                            <br /><br />
+            <div style={{ backgroundColor: '#333333', width: '100%' }}>
+                <div className='container'>
+                    <NavBar />
+                    <br />
+                    <br />
+                    <div className='row' id='formContact'>
+                        <div className='col-md-12'>
+                            <form id='form'>
+                                <h3 id='formHeadingContact'>Quick Contact</h3>
+                                <br />
+                                <div className='row'>
+                                    <div className='col-md-1'></div>
+                                    <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Name' onChange={this.nameOnChange} />
+                                    <div className='col-md-2'></div>
+                                    <input className='col-md-4' id='inputContact' name='Email' type='email' placeholder='Email' onChange={this.emailOnChange} />
+                                    <div className='col-md-1'></div>
+                                </div>
+                                <br /><br />
+                                <div className='row'>
+                                    <div className='col-md-1'></div>
+                                    <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Company Name' onChange={this.nameOnChange} />
+                                    <div className='col-md-2'></div>
+                                    <input className='col-md-4' id='inputContact' name='Phone' type='phone' placeholder='Phone (optional)' onChange={this.phoneOnChange} />
+                                    <div className='col-md-1'></div>
+                                </div>
+                                <br /><br /><br />
+                                <div className='row'>
+                                    <div className='col-md-1' />
+                                    <textarea id='textareaContact' className='col-md-6' name='Message' type='text' placeholder='Message' onChange={this.messageOnChange} />
+                                    <div className='col-md-1' />
+                                    <div className='col-md-4'><button type='submit' id="submitContact" onClick={this.handleSubmit}><h4 id='contactSubmit'>Submit</h4></button></div>
+                                </div>
+                                <br /><br />
 
-                            <br /><br />
-                        </form>
+                                <br /><br />
+                            </form>
+                        </div>
                     </div>
-                </div>
-                <div className='row' id="pagetitleContact">
-                    <div className='col-md-1'></div>
-                    <h3 id='pageTitleContact' className='col-md-2'><strong>Sites By Dre</strong></h3><br/><br/>
-                    <div className='col-md-5'></div>
-                </div>
-                <div className='row' id='CK_Contact'>
-                    <div className='col-md-1'></div>
-                    <div className='col-md-5'>
-                        <h5 id='contactContact'>Contact- Andre Campbell</h5><br />
-                        <h6 id='licensesContact'><strong>Address:</strong> <a href='https://goo.gl/maps/WpgBrZrXP4kefCYk7' target='_blank'> 44 Cipresso 
-                            Irvine, CA 
-                            92603-0105</a></h6><br/>
-                        <h6 id='licensesContact'><strong>Email:</strong> <a href='mailto:andre2656@gmail.com'>andre2656@gmail.com</a></h6><br />
-                        <h6 id='licensesContact'><strong>Phone:</strong> (714) 803-2687</h6><br />
+                    <div className='row' id="pagetitleContact">
+                        <div className='col-md-1'></div>
+                        <h3 id='pageTitleContact' className='col-md-2'><strong>Sites By Dre</strong></h3><br /><br />
+                        <div className='col-md-5'></div>
                     </div>
-                    <div className='col-md-1'></div>
-                    <div className='col-md-5'>
-                        <h5 id='contactContact'>Contact- Full Name</h5><br />
-                        <h6 id='licensesContact'><strong>Address:</strong> <a href='#' target='_blank'> Address With Link</a></h6><br />
-                        <h6 id='licensesContact'><strong>Email:</strong> <a href='mailto:tcamp0171@gmail.com'>Email@email.com</a></h6><br />
-                        <h6 id='licensesContact'><strong>Phone:</strong> (310) 555-8421</h6><br />
+                    <div className='row' id='CK_Contact'>
+                        <div className='col-md-1'></div>
+                        <div className='col-md-5'>
+                            <h5 id='contactContact'>Contact- Andre Campbell</h5><br />
+                            <h6 id='licensesContact'><strong>Address:</strong> <a href='https://goo.gl/maps/WpgBrZrXP4kefCYk7' target='_blank'> 44 Cipresso
+                            Irvine, CA
+                            92603-0105</a></h6><br />
+                            <h6 id='licensesContact'><strong>Email:</strong> <a href='mailto:andre2656@gmail.com'>andre2656@gmail.com</a></h6><br />
+                            <h6 id='licensesContact'><strong>Phone:</strong> (714) 803-2687</h6><br />
+                        </div>
+                        <div className='col-md-1'></div>
+                        <div className='col-md-5'>
+                            <h5 id='contactContact'>Contact- Full Name</h5><br />
+                            <h6 id='licensesContact'><strong>Address:</strong> <a href='#' target='_blank'> Address With Link</a></h6><br />
+                            <h6 id='licensesContact'><strong>Email:</strong> <a href='mailto:tcamp0171@gmail.com'>Email@email.com</a></h6><br />
+                            <h6 id='licensesContact'><strong>Phone:</strong> (310) 555-8421</h6><br />
+                        </div>
                     </div>
+                    <div className='ContactPadding'></div>
+                    <Footer />
                 </div>
-                <div className='ContactPadding'></div>
-                <Footer/>
             </div>
         )
     }
