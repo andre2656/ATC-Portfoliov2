@@ -111,12 +111,6 @@ class Contact extends React.Component {
                             <h6 id='licensesContact'><strong>Phone:</strong> (714) 803-2687</h6><br />
                         </div>
                         <div className='col-md-1'></div>
-                        <div className='col-md-5'>
-                            <h5 id='contactContact'>Contact- Full Name</h5><br />
-                            <h6 id='licensesContact'><strong>Address:</strong> <a href='#' target='_blank'> Address With Link</a></h6><br />
-                            <h6 id='licensesContact'><strong>Email:</strong> <a href='mailto:tcamp0171@gmail.com'>Email@email.com</a></h6><br />
-                            <h6 id='licensesContact'><strong>Phone:</strong> (310) 555-8421</h6><br />
-                        </div>
                     </div>
                     <div className='ContactPadding'></div>
                     <Footer />
