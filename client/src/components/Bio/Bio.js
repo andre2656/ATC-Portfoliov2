@@ -30,13 +30,13 @@ class Bio extends React.Component {
                                     I began coding when I was 15 years old but before then, football was my main passion.
                                     Football taught me some of the most valuable lessons that I know.
                                     Through those lessons I’m constantly reminded to keep my head held high, never quit, and winning requires teamwork.
-                                    As I started coding I kept all of those lessons in mind. Through coding I’ve improved on my problem solving skills, utilized everyday in life.
+                                    As I started coding I kept all of those lessons in mind. Through coding I’ve improved on problem solving skills, utilized everyday in life.
                                     Coding is challenging and you cannot know it all because it is always progressing.
                                     However no matter how hard or easy the problem is; there is a solution, using simple or complex skills.
                                     Personally it brings me to a peaceful state knowing that the possibilities are endless with code.
                                 Instead of searching for something that is missing, you can create it with hard work and determination.<br /><br />
 
-                                    Wherever I end up I will make an impact on this earth and to the individuals surrounding me.
+                                    Wherever I end up I will make a positive impact on this earth and to the individuals surrounding me.
                             </p>
                             </section>
                             <div id="bioImage" className='col-md-5'>

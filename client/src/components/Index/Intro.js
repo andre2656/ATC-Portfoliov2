@@ -14,7 +14,7 @@ class Intro extends Component{
         <div className="col-md-1" />
         <div className="col-md-6" id='introText'>
             <h2 className="sharp">Sites By Dre</h2>
-                    <p style={{ fontSize: 28 }} className='sharp'> I am a full-stack developer with a focuson React. I am here to not only succed but to learn along the way!</p>
+                    <p style={{ fontSize: 28 }} className='sharp'> I am a full-stack developer with a focus on React. <br/> I am here to not only succed but to learn along the way!</p>
             <p style={{ fontSize: 22 }} className='sharp'> Want a custom site by me?</p>
             <button className='introSignUpBtn' onClick={this.signUp}> Sign Up </button>
             <button className='learnMore'>Learn more</button>
