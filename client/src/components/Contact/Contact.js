@@ -65,29 +65,29 @@ class Contact extends React.Component {
                     <div className='row' id='formContact'>
                         <div className='col-md-12'>
                             <form id='form'>
-                                <h3 id='formHeadingContact'>Quick Contact</h3>
+                                <h3 id='formHeadingContact' style={{color: 'white'}}>Quick Contact</h3>
                                 <br />
                                 <div className='row'>
                                     <div className='col-md-1'></div>
-                                    <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Name' onChange={this.nameOnChange} />
+                                    <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Name' onChange={this.nameOnChange} style={{ color: 'white' }} />
                                     <div className='col-md-2'></div>
-                                    <input className='col-md-4' id='inputContact' name='Email' type='email' placeholder='Email' onChange={this.emailOnChange} />
+                                    <input className='col-md-4' id='inputContact' name='Email' type='email' placeholder='Email' style={{ color: 'white' }}  onChange={this.emailOnChange} />
                                     <div className='col-md-1'></div>
                                 </div>
                                 <br /><br />
                                 <div className='row'>
                                     <div className='col-md-1'></div>
-                                    <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Company Name' onChange={this.nameOnChange} />
+                                    <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Company Name' style={{ color: 'white' }}  onChange={this.nameOnChange} />
                                     <div className='col-md-2'></div>
-                                    <input className='col-md-4' id='inputContact' name='Phone' type='phone' placeholder='Phone (optional)' onChange={this.phoneOnChange} />
+                                    <input className='col-md-4' id='inputContact' name='Phone' type='phone' placeholder='Phone (optional)' style={{ color: 'white' }}  onChange={this.phoneOnChange} />
                                     <div className='col-md-1'></div>
                                 </div>
                                 <br /><br /><br />
                                 <div className='row'>
                                     <div className='col-md-1' />
-                                    <textarea id='textareaContact' className='col-md-6' name='Message' type='text' placeholder='Message' onChange={this.messageOnChange} />
+                                    <textarea id='textareaContact' className='col-md-6' name='Message' type='text' placeholder='Message' style={{ color: 'white' }} onChange={this.messageOnChange} />
                                     <div className='col-md-1' />
-                                    <div className='col-md-4'><button type='submit' id="submitContact" onClick={this.handleSubmit}><h4 id='contactSubmit'>Submit</h4></button></div>
+                                    <div className='col-md-4'><button type='submit' id="submitContact" style={{ color: 'white' }}  onClick={this.handleSubmit}><h4 id='contactSubmit'>Submit</h4></button></div>
                                 </div>
                                 <br /><br />
 
