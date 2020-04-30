@@ -29,7 +29,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "if-env": "^1.0.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mysql2": "^1.7.0",
     "node-pinterest": "0.0.4",
     "request-promise": "^4.2.5",
