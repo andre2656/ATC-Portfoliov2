@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "axios": "^0.18.1",
-    "bcrypt": "^3.0.8",
+    "bcrypt": "^5.0.0",
     "bluebird": "^3.7.2",
     "chatkit": "0.0.1-security",
     "connect-session-sequelize": "^6.1.1",
